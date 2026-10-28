@@ -1,0 +1,701 @@
+{
+  "channel": "documentchannel",
+  "chaincode": "documentCC",
+  "msp_id": "Org1MSP",
+  "current_block_height": 20,
+  "genesis_block_hash": "6652af14e0477fb322b209c54768e767fabd14a634c859c06812c18e2cc566c7",
+  "blocks": [
+    {
+      "block_number": 0,
+      "block_hash": "6652af14e0477fb322b209c54768e767fabd14a634c859c06812c18e2cc566c7",
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "channel_id": "documentchannel",
+      "type": "ORDERER_CONFIG_GENESIS",
+      "timestamp": "2026-10-09T00:00:00.000000Z",
+      "transactions_count": 0,
+      "transactions": []
+    },
+    {
+      "block_number": 1,
+      "block_hash": "1c7cde5c8d5b27dd13b960f7aeb8b1c12287e1a4d00b889a5a6cb0d7817e2584",
+      "previous_hash": "6652af14e0477fb322b209c54768e767fabd14a634c859c06812c18e2cc566c7",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:00.010444",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2437650-53d6-4818-8bb8-56c4064757df",
+          "hash": "0x9f579de73b43cdfb3f49e547d5dc0b8f09f0fc0939329199c7fe519ad3efeb41",
+          "ownerName": "Abel Pabian Lintang Putra Pratama",
+          "docType": "Ijazah",
+          "year": "2007",
+          "timestamp": "2026-10-09T15:35:00.010444",
+          "txId": "tx-4d0795c5397cfcf3fd060283b75d42edcab7e94ae862d1e0bfdd96324ef73962",
+          "signature": "44c578c23eb163ffc39eeb51207c3168fc1cf3f75c528c5ef07fa68d9effd2f2",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 2,
+      "block_hash": "71f0093f808b1e6c7b635e0de55a228ec781650c60bc5c885dfeea5bc3a69202",
+      "previous_hash": "1c7cde5c8d5b27dd13b960f7aeb8b1c12287e1a4d00b889a5a6cb0d7817e2584",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:00.637882",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a245b277-245b-460c-8f11-773b8e273762",
+          "hash": "0x6fa59df7d3caeb1e6bf72f0adc2694047a9d37e0b0fbe195dd5e0c0192f54d7c",
+          "ownerName": "Quadri Hassul, S.Pd",
+          "docType": "Sertifikat",
+          "year": "2025",
+          "timestamp": "2026-10-09T15:35:00.637882",
+          "txId": "tx-00c966b91a0cc4b26a0fe8c10fd0848a50e92f6fb9de101cc2720febf295fe2d",
+          "signature": "385646e4aadcdce89625e42d661fa4fa68ac5504d7956b97c802d8c782873c29",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 3,
+      "block_hash": "49081d4de8873aadea396d98f802867693d97d4b49c9884d98816170ea2f48d1",
+      "previous_hash": "71f0093f808b1e6c7b635e0de55a228ec781650c60bc5c885dfeea5bc3a69202",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:00.690640",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2481834-323e-45ed-bee0-abc079605ab4",
+          "hash": "0x47227edd58fac6ba9cea78c1802a298530615e65ca9ce83f71af3aedd099fe0b",
+          "ownerName": "Andi Izzul Haq, S.Kom",
+          "docType": "Sertifikat",
+          "year": "2024",
+          "timestamp": "2026-10-09T15:35:00.690640",
+          "txId": "tx-9417cc265585d4b1311d318ac9a9e927cd98124cbfbc8c67bb0be837c429c443",
+          "signature": "0e613854ec87250810df7ea90214fb13bbe21afb0c5985db77de20108a18fbee",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 4,
+      "block_hash": "66f90d25ad3772f4a19bbb52959ba1b0c9ac155f6ca3458c5b447509b61effa7",
+      "previous_hash": "49081d4de8873aadea396d98f802867693d97d4b49c9884d98816170ea2f48d1",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:00.741427",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a249693a-7f56-48dd-b742-8811a748a833",
+          "hash": "0x47227edd58fac6ba9cea78c1802a298530615e65ca9ce83f71af3aedd099fe0b",
+          "ownerName": "-",
+          "docType": "Dokumen Lainnya",
+          "year": "2026",
+          "timestamp": "2026-10-09T15:35:00.741427",
+          "txId": "tx-b8b9bfbfb82f5cbd14dd29bf330a707f595ee95e74cefbe1e2233b9968084e84",
+          "signature": "25a5b32138631c15df2154400c90c8cb2a28c19081dde040df746b9589433cea",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 5,
+      "block_hash": "af27aa1a62a5f3257760c20d5465756129b914997b2acae187400683d217bcfc",
+      "previous_hash": "66f90d25ad3772f4a19bbb52959ba1b0c9ac155f6ca3458c5b447509b61effa7",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:00.793723",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a249696c-14cf-4f23-9e94-c7449da1da1f",
+          "hash": "0x9f579de73b43cdfb3f49e547d5dc0b8f09f0fc0939329199c7fe519ad3efeb41",
+          "ownerName": "-",
+          "docType": "Ijazah",
+          "year": "1983",
+          "timestamp": "2026-10-09T15:35:00.793723",
+          "txId": "tx-8d26a5b98c2419642ae4aedbcb893cb2723edcffa15fd7e119de13ec3ac62fdc",
+          "signature": "77e0a2f3f49ff2d249dd3d57814b9c2a3e9f399d4252f03f9512d080b15dded1",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 6,
+      "block_hash": "0d92a917859fa3dc6cac185623b0e2008fdd3aed5342772304b66fc3ceba1483",
+      "previous_hash": "af27aa1a62a5f3257760c20d5465756129b914997b2acae187400683d217bcfc",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:00.845417",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2515147-7c87-4209-9f15-0c83a6a806e4",
+          "hash": "0x47227edd58fac6ba9cea78c1802a298530615e65ca9ce83f71af3aedd099fe0b",
+          "ownerName": "Andi Izzul Haq, S.Kom.",
+          "docType": "Sertifikat",
+          "year": "2024",
+          "timestamp": "2026-10-09T15:35:00.845417",
+          "txId": "tx-dce45ac53bfd976f1da2e22706230fee1c21af7aaa59c1f4277219b465e6ab6d",
+          "signature": "140338bf0fcd07be6bde5506646bee167ff7c0b1f964f2bd0196c181ac7380d5",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 7,
+      "block_hash": "7442b034bef96ed15c1098509f649d5bd6b9bca090511b713a63bdbca43e4bbc",
+      "previous_hash": "0d92a917859fa3dc6cac185623b0e2008fdd3aed5342772304b66fc3ceba1483",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:00.898823",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a25157d7-a5d1-4f03-b5dd-335607182801",
+          "hash": "0xfa206bba52e25207e0b80a3e3793b1b22ca2818141c64f4352219d27fdc1c7de",
+          "ownerName": "Alief Nuraizzy",
+          "docType": "Rapor",
+          "year": "2024",
+          "timestamp": "2026-10-09T15:35:00.898823",
+          "txId": "tx-6209442f47ac3ec08a4ab6a971344f7a03f533cebabc9e2e6e2c725ee011d999",
+          "signature": "09bfdad925b778a7cd88c482bc5970c5f147e8b664d6d2f1d7da4d9cee3db1aa",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 8,
+      "block_hash": "30ae74d6e1aadbf55f33715cd49bf631440507939834e3dead704f7ecabb6624",
+      "previous_hash": "7442b034bef96ed15c1098509f649d5bd6b9bca090511b713a63bdbca43e4bbc",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:00.950452",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2792fce-5c2f-4244-a741-57103965e6b4",
+          "hash": "0xfa206bba52e25207e0b80a3e3793b1b22ca2818141c64f4352219d27fdc1c7de",
+          "ownerName": "Alief Nuraizzy",
+          "docType": "Rapor",
+          "year": "2024",
+          "timestamp": "2026-10-09T15:35:00.950452",
+          "txId": "tx-71bef913dcc40e963ad8024400409244f0f4ffcc625b804599a646181142f94a",
+          "signature": "a45dba2d92fe5dd9281d148c48b2d3446917ae1a96f08b4988adf3cadc0ec93f",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 9,
+      "block_hash": "6d5b91a31c628ae80b6dca9998ec87cf95cfd590ca6d8346c57aa8f0d9f0e664",
+      "previous_hash": "30ae74d6e1aadbf55f33715cd49bf631440507939834e3dead704f7ecabb6624",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.003273",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a27b42e9-ae2d-4bc6-9fc1-5e8307918cb4",
+          "hash": "0x8f8e8b7043b03d79940930b78e9f9b4772a6707b8f43bb79dc3d1a6472318588",
+          "ownerName": "FERDIAN DWI SAPUTRA",
+          "docType": "Sertifikat",
+          "year": "2025",
+          "timestamp": "2026-10-09T15:35:01.003273",
+          "txId": "tx-ea5c8322883caefdeb4482deb2c74e8e3b416eadbc92eed7b6b2972d3fd21103",
+          "signature": "3a8fc7dd6842be5665bf08706ff8702ecf6e7e6a79773229ba18c038dc6e7df2",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 10,
+      "block_hash": "6ba4abaa04efeb1057dd7024dbc5c31a5050d5738ba5c7f112e86ca20b6d498c",
+      "previous_hash": "6d5b91a31c628ae80b6dca9998ec87cf95cfd590ca6d8346c57aa8f0d9f0e664",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.054821",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a296a5a8-c7ab-4b9b-a626-9e7213bba4a0",
+          "hash": "0x3cab8a6a615917a3db7a2bf3d9cac013b2109ccb7fcc890649cc5877edf42170",
+          "ownerName": "ferdian saputra",
+          "docType": "Sertifikat",
+          "year": "2026",
+          "timestamp": "2026-10-09T15:35:01.054821",
+          "txId": "tx-5a22087f6069905aecc2672cdcd248fdea289d139592327765dc8d1a634e1c0a",
+          "signature": "3dd6c2e0dbb2e70774c6de4c98c1ee465954c53cd99f35f429b06ae8c6364841",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 11,
+      "block_hash": "decc93f8f0044da847162cbd8c2046eaf2f602e91f93b870eae576bda72b8eb5",
+      "previous_hash": "6ba4abaa04efeb1057dd7024dbc5c31a5050d5738ba5c7f112e86ca20b6d498c",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.108021",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2bda6f6-67e2-4e00-af34-5fd231d2cc61",
+          "hash": "0x47227edd58fac6ba9cea78c1802a298530615e65ca9ce83f71af3aedd099fe0b",
+          "ownerName": "Andi Izzul Haq S.Kom",
+          "docType": "Sertifikat",
+          "year": "2024",
+          "timestamp": "2026-10-09T15:35:01.108021",
+          "txId": "tx-510327ca58546a90e2031ab6aae2ac7510999fb9514acee1b5d94fdb7f975051",
+          "signature": "53fd49c51fd8a5fcfac4f12110413f714da8dc00d5351054b221bf448333986c",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 12,
+      "block_hash": "322eeca825896554ecc190ff611dca5d968e8a119c7927db6c8aaba6af99fcea",
+      "previous_hash": "decc93f8f0044da847162cbd8c2046eaf2f602e91f93b870eae576bda72b8eb5",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.161130",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2be68e5-df07-46c1-a781-60209b203415",
+          "hash": "0x99e35bc394e1639e416e9e6bb0133188b651b94258a6b787582dba11f8053f08",
+          "ownerName": "Muhammad Rizky",
+          "docType": "Ijazah",
+          "year": "2026",
+          "timestamp": "2026-10-09T15:35:01.161130",
+          "txId": "tx-be10d195c5f9906a2307186edcf19ec29f7f8f82f2bde25434ac976ad0207302",
+          "signature": "6233f06621b60df0bfb769028a004ecc256c86dc8536e673e94b25e4090b93dc",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 13,
+      "block_hash": "d17278aa07a160aed43a6b4cc2d1a77b8d3d842fc4d1481441ed0ff594de32f6",
+      "previous_hash": "322eeca825896554ecc190ff611dca5d968e8a119c7927db6c8aaba6af99fcea",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.213106",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2be6ae3-cee4-4df2-87b3-0b2b17b2d98c",
+          "hash": "0x3f597bbf0ffedb6d28ce24b2412771951f8a072ff1cc0e86f53a804fd8df66ae",
+          "ownerName": "IQBAL FACHROZI",
+          "docType": "Ijazah",
+          "year": "2013",
+          "timestamp": "2026-10-09T15:35:01.213106",
+          "txId": "tx-45c36deb98204f5ea89ebea6160b3c6b70e7a1487d25a13e2eca1c337bac4dd6",
+          "signature": "0ff53648daeb6e666888b2f582091ce709b931d9e7aefab0d6bd57a0941bb4c0",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 14,
+      "block_hash": "ec0dcb90755cdfa518a1b9b03b78ec1dcc3ccbff12483a076933d6cba2a75061",
+      "previous_hash": "d17278aa07a160aed43a6b4cc2d1a77b8d3d842fc4d1481441ed0ff594de32f6",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.264679",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2cb8f21-b921-4399-91aa-f4b15d91bd75",
+          "hash": "0xe08492971be56d1362e4e7e806d00289848b803dd8e61d95a35e6b62aa3b7fec",
+          "ownerName": "FERDIAN DWI SAPUTRA",
+          "docType": "Dokumen Lainnya",
+          "year": "-",
+          "timestamp": "2026-10-09T15:35:01.264679",
+          "txId": "tx-b1664e1c4cdd52ca3b8afc7577d93823b1b705d7def3c6732a1cc805a3072840",
+          "signature": "4b770137cdcd9119a8507ca7f5dabe320cec42a1aaf5a53ef4d5973758cb107d",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 15,
+      "block_hash": "ec2672fcde87df5a51d9db097a7bb1937d603d441f10c30449f6cb12aae5941a",
+      "previous_hash": "ec0dcb90755cdfa518a1b9b03b78ec1dcc3ccbff12483a076933d6cba2a75061",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.316492",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2d184c3-c061-4627-aa38-ce4e42cc39f4",
+          "hash": "0x11c15cf02807539cde2e865015b786f5d5edd1dfbbe477cbdeb17bcb7d96e8b5",
+          "ownerName": "FERDIAN DWI SAPUTRA",
+          "docType": "Sertifikat",
+          "year": "2025",
+          "timestamp": "2026-10-09T15:35:01.316492",
+          "txId": "tx-9ed7f65c619c9121dd1d661a9447289fbd5f9f866cc359ab6a1d08dec822a298",
+          "signature": "b02c2f3bd4d0524bd52d16b4cad4af2b7d828ea524c48ebe3e6cefa5c9073c60",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 16,
+      "block_hash": "53125d48c93ce35f4c12bdffb273dbd801aa9d467b360d0e9eeae6375c2e47c9",
+      "previous_hash": "ec2672fcde87df5a51d9db097a7bb1937d603d441f10c30449f6cb12aae5941a",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.368311",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2d1917c-7596-450d-bb8c-2e4b86a11596",
+          "hash": "0xeb1c3bbba5df172e8a43776c80581758d537c173ded95438004408e4ef68faff",
+          "ownerName": "Haq Andi Izzul S.Kom",
+          "docType": "Sertifikat",
+          "year": "2024",
+          "timestamp": "2026-10-09T15:35:01.368311",
+          "txId": "tx-ad5fbb357ea8c25a88e2b16b1cd87613bf2a5937c05690d172a83bb0ea53c684",
+          "signature": "45892b97fd6738a67ac04b6b1dbcf494d37ef62172c32bcb463956d8dbbdfb01",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 17,
+      "block_hash": "00bb15b6ca6d73fcc8d0b2d4389a2083457edca2b42833d25e72354dd91c6349",
+      "previous_hash": "53125d48c93ce35f4c12bdffb273dbd801aa9d467b360d0e9eeae6375c2e47c9",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.420087",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2ebdbdd-ff20-4d1f-8a5c-dd7b72855f4b",
+          "hash": "0xfb19fd2fd559a1cabeaeaa2712dd2001d921704f89897006cf24ef69c5170742",
+          "ownerName": "Ferdian Dwi Saputra",
+          "docType": "Sertifikat",
+          "year": "2023",
+          "timestamp": "2026-10-09T15:35:01.420087",
+          "txId": "tx-f016989c64726ac4515baf04e2944e7fa2a43ba70e1112c252c79c9608e86c2a",
+          "signature": "6b667286107c90a22f7d03bae67d6147f5746ba449b80ed599c1cbecea35934f",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 18,
+      "block_hash": "50cc10ae6a4203348ce851a14ee835511d02928df96f0e0620f0627c7583e2ea",
+      "previous_hash": "00bb15b6ca6d73fcc8d0b2d4389a2083457edca2b42833d25e72354dd91c6349",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.490252",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2ebe6b4-fe43-4e08-9de2-603d13f3e3d1",
+          "hash": "0xd97ddd865edceb2612ca72045a5a9cc422c3609d1a2eb4973e3d427abae2434f",
+          "ownerName": "Ferdian Dwi Saputra",
+          "docType": "Sertifikat",
+          "year": "2023",
+          "timestamp": "2026-10-09T15:35:01.490252",
+          "txId": "tx-5032083318dceb8c560738e3cd4f551c5197e08c5d497c46fb09c424873e97c1",
+          "signature": "1dfa91518890f513172e09c20bc4b27285f2ae08234e1cb886d4f5d85569035e",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 19,
+      "block_hash": "4e60514ce9bf8e07ff0c96c1049c398fab767d9c73129e26f2f15771f46a1158",
+      "previous_hash": "50cc10ae6a4203348ce851a14ee835511d02928df96f0e0620f0627c7583e2ea",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.561607",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2ebeb71-83c5-42f8-830b-43d4b2ba8e31",
+          "hash": "0x8a6d22b81a6bc5b9cf6b267cbb0872dbf841f357ade3ea698d4d916337f61ae6",
+          "ownerName": "FERDIAN DWI SAPUTRA",
+          "docType": "Sertifikat",
+          "year": "2025",
+          "timestamp": "2026-10-09T15:35:01.561607",
+          "txId": "tx-ca6651a20e1cfbf343b8b9542695e5d5ba66b9baeb4afb59fca7ba44ac661663",
+          "signature": "5f88515478fd7122eacaa3bff12553019efa278bd1cc16d48d9140d87aaae5ca",
+          "status": "VALID"
+        }
+      ]
+    },
+    {
+      "block_number": 20,
+      "block_hash": "92acadd8d98d234c76f4691ac7272b5898609b2fbc4796fdf608ca273d91e4c2",
+      "previous_hash": "4e60514ce9bf8e07ff0c96c1049c398fab767d9c73129e26f2f15771f46a1158",
+      "channel_id": "documentchannel",
+      "chaincode_id": "documentCC",
+      "type": "ENDORSER_TRANSACTION",
+      "timestamp": "2026-10-09T15:35:01.615468",
+      "transactions_count": 1,
+      "transactions": [
+        {
+          "docId": "a2ed1211-b5f6-44cd-b083-7ca2314c657b",
+          "hash": "0x954885b35debfe003f651bed9f09ccc7d0ce6ab4091d25d06f712ebe11ad1648",
+          "ownerName": "IQBAL FACHROZI",
+          "docType": "Ijazah",
+          "year": "2013",
+          "timestamp": "2026-10-09T15:35:01.615468",
+          "txId": "tx-e152506125cc07e42e7b2aabeb04e70f4f8b5f2d957df360892abf372b5de38d",
+          "signature": "566ae525e7bc55a4f1fe94f81e2215529db70be3ab7f4e4094731e82ffa58f53",
+          "status": "VALID"
+        }
+      ]
+    }
+  ],
+  "world_state": {
+    "a2437650-53d6-4818-8bb8-56c4064757df": {
+      "docId": "a2437650-53d6-4818-8bb8-56c4064757df",
+      "hash": "0x9f579de73b43cdfb3f49e547d5dc0b8f09f0fc0939329199c7fe519ad3efeb41",
+      "ownerName": "Abel Pabian Lintang Putra Pratama",
+      "docType": "Ijazah",
+      "year": "2007",
+      "timestamp": "2026-10-09T15:35:00.010444",
+      "txId": "tx-4d0795c5397cfcf3fd060283b75d42edcab7e94ae862d1e0bfdd96324ef73962",
+      "signature": "44c578c23eb163ffc39eeb51207c3168fc1cf3f75c528c5ef07fa68d9effd2f2",
+      "status": "VALID"
+    },
+    "a245b277-245b-460c-8f11-773b8e273762": {
+      "docId": "a245b277-245b-460c-8f11-773b8e273762",
+      "hash": "0x6fa59df7d3caeb1e6bf72f0adc2694047a9d37e0b0fbe195dd5e0c0192f54d7c",
+      "ownerName": "Quadri Hassul, S.Pd",
+      "docType": "Sertifikat",
+      "year": "2025",
+      "timestamp": "2026-10-09T15:35:00.637882",
+      "txId": "tx-00c966b91a0cc4b26a0fe8c10fd0848a50e92f6fb9de101cc2720febf295fe2d",
+      "signature": "385646e4aadcdce89625e42d661fa4fa68ac5504d7956b97c802d8c782873c29",
+      "status": "VALID"
+    },
+    "a2481834-323e-45ed-bee0-abc079605ab4": {
+      "docId": "a2481834-323e-45ed-bee0-abc079605ab4",
+      "hash": "0x47227edd58fac6ba9cea78c1802a298530615e65ca9ce83f71af3aedd099fe0b",
+      "ownerName": "Andi Izzul Haq, S.Kom",
+      "docType": "Sertifikat",
+      "year": "2024",
+      "timestamp": "2026-10-09T15:35:00.690640",
+      "txId": "tx-9417cc265585d4b1311d318ac9a9e927cd98124cbfbc8c67bb0be837c429c443",
+      "signature": "0e613854ec87250810df7ea90214fb13bbe21afb0c5985db77de20108a18fbee",
+      "status": "VALID"
+    },
+    "a249693a-7f56-48dd-b742-8811a748a833": {
+      "docId": "a249693a-7f56-48dd-b742-8811a748a833",
+      "hash": "0x47227edd58fac6ba9cea78c1802a298530615e65ca9ce83f71af3aedd099fe0b",
+      "ownerName": "-",
+      "docType": "Dokumen Lainnya",
+      "year": "2026",
+      "timestamp": "2026-10-09T15:35:00.741427",
+      "txId": "tx-b8b9bfbfb82f5cbd14dd29bf330a707f595ee95e74cefbe1e2233b9968084e84",
+      "signature": "25a5b32138631c15df2154400c90c8cb2a28c19081dde040df746b9589433cea",
+      "status": "VALID"
+    },
+    "a249696c-14cf-4f23-9e94-c7449da1da1f": {
+      "docId": "a249696c-14cf-4f23-9e94-c7449da1da1f",
+      "hash": "0x9f579de73b43cdfb3f49e547d5dc0b8f09f0fc0939329199c7fe519ad3efeb41",
+      "ownerName": "-",
+      "docType": "Ijazah",
+      "year": "1983",
+      "timestamp": "2026-10-09T15:35:00.793723",
+      "txId": "tx-8d26a5b98c2419642ae4aedbcb893cb2723edcffa15fd7e119de13ec3ac62fdc",
+      "signature": "77e0a2f3f49ff2d249dd3d57814b9c2a3e9f399d4252f03f9512d080b15dded1",
+      "status": "VALID"
+    },
+    "a2515147-7c87-4209-9f15-0c83a6a806e4": {
+      "docId": "a2515147-7c87-4209-9f15-0c83a6a806e4",
+      "hash": "0x47227edd58fac6ba9cea78c1802a298530615e65ca9ce83f71af3aedd099fe0b",
+      "ownerName": "Andi Izzul Haq, S.Kom.",
+      "docType": "Sertifikat",
+      "year": "2024",
+      "timestamp": "2026-10-09T15:35:00.845417",
+      "txId": "tx-dce45ac53bfd976f1da2e22706230fee1c21af7aaa59c1f4277219b465e6ab6d",
+      "signature": "140338bf0fcd07be6bde5506646bee167ff7c0b1f964f2bd0196c181ac7380d5",
+      "status": "VALID"
+    },
+    "a25157d7-a5d1-4f03-b5dd-335607182801": {
+      "docId": "a25157d7-a5d1-4f03-b5dd-335607182801",
+      "hash": "0xfa206bba52e25207e0b80a3e3793b1b22ca2818141c64f4352219d27fdc1c7de",
+      "ownerName": "Alief Nuraizzy",
+      "docType": "Rapor",
+      "year": "2024",
+      "timestamp": "2026-10-09T15:35:00.898823",
+      "txId": "tx-6209442f47ac3ec08a4ab6a971344f7a03f533cebabc9e2e6e2c725ee011d999",
+      "signature": "09bfdad925b778a7cd88c482bc5970c5f147e8b664d6d2f1d7da4d9cee3db1aa",
+      "status": "VALID"
+    },
+    "a2792fce-5c2f-4244-a741-57103965e6b4": {
+      "docId": "a2792fce-5c2f-4244-a741-57103965e6b4",
+      "hash": "0xfa206bba52e25207e0b80a3e3793b1b22ca2818141c64f4352219d27fdc1c7de",
+      "ownerName": "Alief Nuraizzy",
+      "docType": "Rapor",
+      "year": "2024",
+      "timestamp": "2026-10-09T15:35:00.950452",
+      "txId": "tx-71bef913dcc40e963ad8024400409244f0f4ffcc625b804599a646181142f94a",
+      "signature": "a45dba2d92fe5dd9281d148c48b2d3446917ae1a96f08b4988adf3cadc0ec93f",
+      "status": "VALID"
+    },
+    "a27b42e9-ae2d-4bc6-9fc1-5e8307918cb4": {
+      "docId": "a27b42e9-ae2d-4bc6-9fc1-5e8307918cb4",
+      "hash": "0x8f8e8b7043b03d79940930b78e9f9b4772a6707b8f43bb79dc3d1a6472318588",
+      "ownerName": "FERDIAN DWI SAPUTRA",
+      "docType": "Sertifikat",
+      "year": "2025",
+      "timestamp": "2026-10-09T15:35:01.003273",
+      "txId": "tx-ea5c8322883caefdeb4482deb2c74e8e3b416eadbc92eed7b6b2972d3fd21103",
+      "signature": "3a8fc7dd6842be5665bf08706ff8702ecf6e7e6a79773229ba18c038dc6e7df2",
+      "status": "VALID"
+    },
+    "a296a5a8-c7ab-4b9b-a626-9e7213bba4a0": {
+      "docId": "a296a5a8-c7ab-4b9b-a626-9e7213bba4a0",
+      "hash": "0x3cab8a6a615917a3db7a2bf3d9cac013b2109ccb7fcc890649cc5877edf42170",
+      "ownerName": "ferdian saputra",
+      "docType": "Sertifikat",
+      "year": "2026",
+      "timestamp": "2026-10-09T15:35:01.054821",
+      "txId": "tx-5a22087f6069905aecc2672cdcd248fdea289d139592327765dc8d1a634e1c0a",
+      "signature": "3dd6c2e0dbb2e70774c6de4c98c1ee465954c53cd99f35f429b06ae8c6364841",
+      "status": "VALID"
+    },
+    "a2bda6f6-67e2-4e00-af34-5fd231d2cc61": {
+      "docId": "a2bda6f6-67e2-4e00-af34-5fd231d2cc61",
+      "hash": "0x47227edd58fac6ba9cea78c1802a298530615e65ca9ce83f71af3aedd099fe0b",
+      "ownerName": "Andi Izzul Haq S.Kom",
+      "docType": "Sertifikat",
+      "year": "2024",
+      "timestamp": "2026-10-09T15:35:01.108021",
+      "txId": "tx-510327ca58546a90e2031ab6aae2ac7510999fb9514acee1b5d94fdb7f975051",
+      "signature": "53fd49c51fd8a5fcfac4f12110413f714da8dc00d5351054b221bf448333986c",
+      "status": "VALID"
+    },
+    "a2be68e5-df07-46c1-a781-60209b203415": {
+      "docId": "a2be68e5-df07-46c1-a781-60209b203415",
+      "hash": "0x99e35bc394e1639e416e9e6bb0133188b651b94258a6b787582dba11f8053f08",
+      "ownerName": "Muhammad Rizky",
+      "docType": "Ijazah",
+      "year": "2026",
+      "timestamp": "2026-10-09T15:35:01.161130",
+      "txId": "tx-be10d195c5f9906a2307186edcf19ec29f7f8f82f2bde25434ac976ad0207302",
+      "signature": "6233f06621b60df0bfb769028a004ecc256c86dc8536e673e94b25e4090b93dc",
+      "status": "VALID"
+    },
+    "a2be6ae3-cee4-4df2-87b3-0b2b17b2d98c": {
+      "docId": "a2be6ae3-cee4-4df2-87b3-0b2b17b2d98c",
+      "hash": "0x3f597bbf0ffedb6d28ce24b2412771951f8a072ff1cc0e86f53a804fd8df66ae",
+      "ownerName": "IQBAL FACHROZI",
+      "docType": "Ijazah",
+      "year": "2013",
+      "timestamp": "2026-10-09T15:35:01.213106",
+      "txId": "tx-45c36deb98204f5ea89ebea6160b3c6b70e7a1487d25a13e2eca1c337bac4dd6",
+      "signature": "0ff53648daeb6e666888b2f582091ce709b931d9e7aefab0d6bd57a0941bb4c0",
+      "status": "VALID"
+    },
+    "a2cb8f21-b921-4399-91aa-f4b15d91bd75": {
+      "docId": "a2cb8f21-b921-4399-91aa-f4b15d91bd75",
+      "hash": "0xe08492971be56d1362e4e7e806d00289848b803dd8e61d95a35e6b62aa3b7fec",
+      "ownerName": "FERDIAN DWI SAPUTRA",
+      "docType": "Dokumen Lainnya",
+      "year": "-",
+      "timestamp": "2026-10-09T15:35:01.264679",
+      "txId": "tx-b1664e1c4cdd52ca3b8afc7577d93823b1b705d7def3c6732a1cc805a3072840",
+      "signature": "4b770137cdcd9119a8507ca7f5dabe320cec42a1aaf5a53ef4d5973758cb107d",
+      "status": "VALID"
+    },
+    "a2d184c3-c061-4627-aa38-ce4e42cc39f4": {
+      "docId": "a2d184c3-c061-4627-aa38-ce4e42cc39f4",
+      "hash": "0x11c15cf02807539cde2e865015b786f5d5edd1dfbbe477cbdeb17bcb7d96e8b5",
+      "ownerName": "FERDIAN DWI SAPUTRA",
+      "docType": "Sertifikat",
+      "year": "2025",
+      "timestamp": "2026-10-09T15:35:01.316492",
+      "txId": "tx-9ed7f65c619c9121dd1d661a9447289fbd5f9f866cc359ab6a1d08dec822a298",
+      "signature": "b02c2f3bd4d0524bd52d16b4cad4af2b7d828ea524c48ebe3e6cefa5c9073c60",
+      "status": "VALID"
+    },
+    "a2d1917c-7596-450d-bb8c-2e4b86a11596": {
+      "docId": "a2d1917c-7596-450d-bb8c-2e4b86a11596",
+      "hash": "0xeb1c3bbba5df172e8a43776c80581758d537c173ded95438004408e4ef68faff",
+      "ownerName": "Haq Andi Izzul S.Kom",
+      "docType": "Sertifikat",
+      "year": "2024",
+      "timestamp": "2026-10-09T15:35:01.368311",
+      "txId": "tx-ad5fbb357ea8c25a88e2b16b1cd87613bf2a5937c05690d172a83bb0ea53c684",
+      "signature": "45892b97fd6738a67ac04b6b1dbcf494d37ef62172c32bcb463956d8dbbdfb01",
+      "status": "VALID"
+    },
+    "a2ebdbdd-ff20-4d1f-8a5c-dd7b72855f4b": {
+      "docId": "a2ebdbdd-ff20-4d1f-8a5c-dd7b72855f4b",
+      "hash": "0xfb19fd2fd559a1cabeaeaa2712dd2001d921704f89897006cf24ef69c5170742",
+      "ownerName": "Ferdian Dwi Saputra",
+      "docType": "Sertifikat",
+      "year": "2023",
+      "timestamp": "2026-10-09T15:35:01.420087",
+      "txId": "tx-f016989c64726ac4515baf04e2944e7fa2a43ba70e1112c252c79c9608e86c2a",
+      "signature": "6b667286107c90a22f7d03bae67d6147f5746ba449b80ed599c1cbecea35934f",
+      "status": "VALID"
+    },
+    "a2ebe6b4-fe43-4e08-9de2-603d13f3e3d1": {
+      "docId": "a2ebe6b4-fe43-4e08-9de2-603d13f3e3d1",
+      "hash": "0xd97ddd865edceb2612ca72045a5a9cc422c3609d1a2eb4973e3d427abae2434f",
+      "ownerName": "Ferdian Dwi Saputra",
+      "docType": "Sertifikat",
+      "year": "2023",
+      "timestamp": "2026-10-09T15:35:01.490252",
+      "txId": "tx-5032083318dceb8c560738e3cd4f551c5197e08c5d497c46fb09c424873e97c1",
+      "signature": "1dfa91518890f513172e09c20bc4b27285f2ae08234e1cb886d4f5d85569035e",
+      "status": "VALID"
+    },
+    "a2ebeb71-83c5-42f8-830b-43d4b2ba8e31": {
+      "docId": "a2ebeb71-83c5-42f8-830b-43d4b2ba8e31",
+      "hash": "0x8a6d22b81a6bc5b9cf6b267cbb0872dbf841f357ade3ea698d4d916337f61ae6",
+      "ownerName": "FERDIAN DWI SAPUTRA",
+      "docType": "Sertifikat",
+      "year": "2025",
+      "timestamp": "2026-10-09T15:35:01.561607",
+      "txId": "tx-ca6651a20e1cfbf343b8b9542695e5d5ba66b9baeb4afb59fca7ba44ac661663",
+      "signature": "5f88515478fd7122eacaa3bff12553019efa278bd1cc16d48d9140d87aaae5ca",
+      "status": "VALID"
+    },
+    "a2ed1211-b5f6-44cd-b083-7ca2314c657b": {
+      "docId": "a2ed1211-b5f6-44cd-b083-7ca2314c657b",
+      "hash": "0x954885b35debfe003f651bed9f09ccc7d0ce6ab4091d25d06f712ebe11ad1648",
+      "ownerName": "IQBAL FACHROZI",
+      "docType": "Ijazah",
+      "year": "2013",
+      "timestamp": "2026-10-09T15:35:01.615468",
+      "txId": "tx-e152506125cc07e42e7b2aabeb04e70f4f8b5f2d957df360892abf372b5de38d",
+      "signature": "566ae525e7bc55a4f1fe94f81e2215529db70be3ab7f4e4094731e82ffa58f53",
+      "status": "VALID"
+    }
+  }
+}

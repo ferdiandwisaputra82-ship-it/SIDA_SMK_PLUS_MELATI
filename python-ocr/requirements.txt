@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+numpy
+opencv-python
+easyocr
+pytesseract
+Pillow
+requests
+python-dotenv
+groq
+pymupdf
+pypdf
+pdf2image

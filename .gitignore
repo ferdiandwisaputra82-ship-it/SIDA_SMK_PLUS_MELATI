@@ -1,0 +1,52 @@
+# Laravel Framework
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
+
+# SQLite Database
+database/database.sqlite
+database/database.sqlite-journal
+database/*.sqlite
+
+# Python Virtual Environments & Caches
+.venv/
+venv/
+python-ocr/venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Google Drive & API Secrets
+client_secret_*.json
+storage/credentials.json
+storage/oauth_token.json
+
+# Blockchain & Crypto Keys
+storage/fabric/*.pem
+storage/fabric/*.key
+
+# Temporary Scratch & Debug Scripts
+scratch/
+debug/
+check_image.php
+process_logo.php
+test_*.php
+render_ijazah.py
+render_orig.py
+render_test.py
